@@ -1,6 +1,6 @@
-list1 = ["","",""]
-list2 = ["","",""]
-list3 = ["","",""]
+list1 = ["teja","kalyani","ammu"]
+list2 = ["jackson","anith","sandhya"]
+list3 = ["ali","chaitu","akki"]
 index_list = ["a","b","c"]
 final_list = [list1,list2,list3]
 
@@ -10,4 +10,4 @@ letter_index = index_list.index(user_input[0])
 number_index = int(user_input[1])-1
 final_list[number_index][letter_index] = "something"
 
-print(f"{list1}\n{list2}\n{list3}]")
+print(f"{list1}\n{list2}\n{list3}]") 
